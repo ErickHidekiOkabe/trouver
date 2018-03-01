@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* //////////////////////Nav////////////////////// */
+
+nav{
+    height: 76px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 24px;
+    font-size: 17px;
+    color: white;
+}
+
+.logo{
+    width: 160px;
+    margin-left: 160px;
+    margin-top: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* //////////////////////HEADER////////////////////// */
+
+header{
+    
+        padding: 255px 0px 283px 233px;
+       
+    
+        background-image: url('../img/background1.png'); 
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+
+
+}
+
+
+.slogan{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px; 
+}
+
+
+
+.btn{
+    padding: 15px 10px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 95px;
+
+}
+
+.btn-verde{
+    background-color: #1ed954;
+    width: 310px;
+    border: none;
+}
+.btn-branco{
+    
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px white;
+    width: 310px;
+    margin-left: 10px;
+    
+    
+}
