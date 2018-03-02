@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    height: 76px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+   
+}
+
+nav ul{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+nav ul li{
+    float: left;
+    list-style-type: none;
+    margin-left: 24px;
+    font-size: 17px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 160px;
+    margin-left: 160px;
+    margin-top: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    width: 65%;
+
+}
+
+.bkg1{
+    background-image: url('../img/background1.png');
+    background-size: 615vh;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
+
+.fontit{
+    font-family:  'Candal', sans-serif;
+    color: azure;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 80px;
+
+}
+
+.persona1{
+    width: 50%;
+    height: 100px;
+
+
+}
+
+.persona2{
+    width: 50%;
+    height: 100px;
+
+
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.cerebro{
+    float:right;
+}
