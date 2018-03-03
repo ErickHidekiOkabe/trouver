@@ -8,7 +8,7 @@
 
 nav{
     height: 76px;
-    background-color: #92dbfe;
+    background-color: #6dc8f3;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -24,11 +24,12 @@ nav h1{
 }
 
 nav ul{
-    padding-top: 26px;
+    padding: 26px 15px;
 }
 
 nav ul li{
-    float: right;
+    color: white;
+    display: inline;
     list-style-type: none;
     margin-left: 24px;
     font-size: 17px;
@@ -57,25 +58,29 @@ a{
 /* //////////////////////HEADER////////////////////// */
 
 header{
-    
-        padding-top: 197px;
-       
-    
-        /* background-image: url('../img/background1.png');  */
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-
-
+    padding-top: 87px;
+    background-image: url('../img/cidade_cel.jpg'); 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    display: block;
 }
 
 
 .slogan{
     color: black;
     font-size: 60px;
+    padding-top: 20px;
     font-weight: bold;
-    margin-bottom: 40px; 
+    display: flex;
+    justify-content: center;
 }
-
+.botoes-header{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    height: 443px;
+}
 
 
 .btn{
@@ -84,22 +89,18 @@ header{
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 14px;
-    margin-left: 95px;
-
 }
 
 .btn-verde{
     background-color: #1ed954;
     width: 310px;
     border: none;
+    
 }
+
 .btn-branco{
-    
     background-color: rgba(0, 0, 0, 0);
-    border: solid 2px white;
+    border: solid 2px royalblue;
+    color: royalblue;
     width: 310px;
-    margin-left: 10px;
-    
-    
 }
