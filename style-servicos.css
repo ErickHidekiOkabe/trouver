@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* //////////////////////Nav////////////////////// */
+
+nav{
+    height: 76px;
+    background-color: #6dc8f3;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 35px;
+    padding: 10px 0px 0px 3px;
+    color: white;
+}
+
+nav ul{
+    padding: 26px 15px;
+}
+
+nav ul li{
+    color: white;
+    display: inline;
+    list-style-type: none;
+    margin-left: 24px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    margin-left: 37px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.logotipo{
+    display: flex;
+}
+
+header{
+    position: relative;
+    color: white;
+    background-image: url(../img/bg1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 660px;
+
+}
+.conteudo-header{
+    margin-top: 257px;
+    margin-left: 27%;
+    position: absolute;
+ }
+ 
+ .slogan{
+    font-size: 150px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Archivo+Black', sans-serif;
+    display: flex;
+    justify-content: center;
+   padding-top: 5px;
+ }
+
+.guia{
+  width: 100%;
+ opacity: 0.2;
+ position: absolute;
+ z-index: -1;
+     
+}
