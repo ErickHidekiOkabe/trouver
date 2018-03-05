@@ -3,121 +3,56 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
-nav{
-    height: 76px;
-    background-color: #92dbfe;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
+/* //////////////////////quem-section1////////////////////// */
+.quem-section1{
+    padding: 87px 181px 0px 131px;
+}
+.quem-section1 h2{
+    font-size: 50px;
+}
+.quem-bloco1{
     display: flex;
-    justify-content: space-between;
 }
-
-nav h1{
-    font-family: 'Amaranth', sans-serif;
-    font-size: 35px;
-    padding: 10px 0px 0px 3px;
+.quem-bloco1 p{
+    padding-top: 43px;
+    padding-right: 50px;
+}
+.quem-bloco1 img{
+    width: 300px;
+    height: 300px;
+}
+/* //////////////////////quem-section2////////////////////// */
+.quem-section2{
+    background-color: #66ccff;
+    padding: 80px 50px 0px 50px;;
+}
+.quem-section2 h2{
+    font-size: 50px;
     color: white;
+    display: flex;
+    justify-content: center;
 }
-
-nav ul{
-    padding-top: 26px;
-}
-
-nav ul li{
-    float: right;
-    list-style-type: none;
-    margin-left: 24px;
-    font-size: 17px;
+.quem-section2 a{
+    font-size: 30px;
+    color: white;
     font-weight: bold;
+    display: block;
 }
-
-.logo{
-    width: 75px;
-    height: 75px;
-    margin-left: 37px;
-
-}
-
-a{
-    text-decoration: none;
+.quem-section2 p{
     color: white;
 }
-.logotipo{
+
+.quem-section2 img{
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+}
+.linha{
     display: flex;
+    padding-top: 50px;
 }
-
-/* .logo{
-    width: 160px;
-    margin-left: 160px;
-    margin-top: 15px;
-
-} */
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-p{
-    width: 65%;
-
-}
-body{
-    background-image: url('../img/background2.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-/* .bkg1{
- 
-    background-size: 270vh;
-    background-repeat: no-repeat;
-    height: 55vh; 
-} */
-
-.fontit{
-    font-family:  'Candal', sans-serif;
-    color: azure;
-    text-align: center;
-    font-size: 45px;
-    padding-top: 80px;
-
-}
-
-.persona1{
-    width: 50vh;
-    margin-left: 25vh;
-
-
-}
-
-.persona2{
-    width: 50vh;
-    margin-left: 25vh;
-
-
-}
-
-.perfil{
+.pessoa{
     display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-
-}
-
-.cerebro{
-    float:right;
-    width: 50vh;
-}
-
-.text{
-    margin-left: 10vh;
-    color: white;
-
-}
-
-.subtit{
-    margin-top: 30vh;
+    width: 600px;
+    height: 304px;
 }
