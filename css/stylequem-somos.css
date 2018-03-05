@@ -57,3 +57,25 @@
     width: 600px;
     height: 304px;
 }
+
+
+@media(max-width:601px){
+    nav ul li{
+        display: block;
+    }
+    
+    nav{
+        height: auto;
+    }
+
+    .barrinha{
+        display: none;
+    }
+}
+
+
+.texto{
+    transform: rotateX(-200%);
+    transition: 2s;
+
+}
