@@ -86,7 +86,7 @@ header{
 }
 
 
-.btn{
+.btn-index{
     padding: 15px 10px;
     border-radius: 50px;
     color: white;
@@ -115,10 +115,10 @@ header{
     height: 500px;
     background-color: #66ccff;
     display: flex;
-    padding: 50px 87px 20px 50px;
+    padding: 50px 87px 50px 50px;
 }
 .text-1{
-    padding: 70px 40px 0px 50px;
+    padding: 50px 40px 0px 50px;
 }
 .text-1 h3{
     /* color: white; */
