@@ -55,6 +55,22 @@ nav a{
     display: flex;
     justify-content: flex-end;
 } */
+/* //////////////////////Nav Responsivo////////////////////// */
+@media(max-width:601px){
+    nav ul li{
+        display: block;
+    }
+    
+    nav{
+        height: auto;
+    }
+
+    .barrinha{
+        display: none;
+    }
+}
+
+
 
 /* //////////////////////HEADER////////////////////// */
 
@@ -148,7 +164,7 @@ footer{
 }
 footer ul{
     /* display: flex; Tirei pois esssa propriedade deixa em linha*/ 
-    padding-left: 67px;
+    /* padding-left: 67px; */
 }
 footer ul li{
     list-style-type: none;
