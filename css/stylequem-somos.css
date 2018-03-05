@@ -73,6 +73,9 @@
     }
 }
 
+@media(max-width:601px){
+    
+};
 
 .texto{
     transform: rotateX(-200%);
